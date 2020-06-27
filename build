@@ -1,0 +1,28 @@
+#!/bin/bash
+rm -rf .build
+wget -r http://localhost:2017 > /dev/null 2>&1
+if [ "$?" -ne "0" ]; then
+  echo "Please turn on a server"
+  exit 1
+fi
+mv localhost:2017 .build
+pages=(
+  clients
+  contact
+  podcasts
+  services
+  team
+  testimonials
+)
+for page in "${pages[@]}"; do
+  mv .build/$page .build/tmp
+  mkdir .build/$page
+  mv .build/tmp .build/$page/index.html
+done
+
+pushd .build > /dev/null
+git init
+git remote add origin https://github.com/farhananshah/edhaus.git
+git add .
+git commit -m "Update on $(date)"
+popd > /dev/null
