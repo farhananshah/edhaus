@@ -17,7 +17,7 @@
   <!-- Team -->
   <div class="section podcasts">
     <div class="podcast">
-      <img src="/res/placeholder.svg"/>
+      <img src="../res/placeholder.svg"/>
       <h2>Podcast 1</h2>
       <p>
         A podcast about stuff
@@ -27,7 +27,7 @@
       <a href="http://www.lugocorp.net">Google</a>
     </div>
     <div class="podcast">
-      <img src="/res/placeholder.svg"/>
+      <img src="../res/placeholder.svg"/>
       <h2>Podcast 2</h2>
       <p>
         A podcast about stuff
@@ -37,7 +37,7 @@
       <a href="http://www.lugocorp.net">Google</a>
     </div>
     <div class="podcast">
-      <img src="/res/placeholder.svg"/>
+      <img src="../res/placeholder.svg"/>
       <h2>Podcast 3</h2>
       <p>
         A podcast about stuff
@@ -47,7 +47,7 @@
       <a href="http://www.lugocorp.net">Google</a>
     </div>
     <div class="podcast">
-      <img src="/res/placeholder.svg"/>
+      <img src="../res/placeholder.svg"/>
       <h2>Podcast 4</h2>
       <p>
         A podcast about stuff

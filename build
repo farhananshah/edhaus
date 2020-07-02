@@ -25,4 +25,5 @@ git init
 git remote add origin https://github.com/farhananshah/edhaus.git
 git add .
 git commit -m "Update on $(date)"
+git push origin master:gh-pages
 popd > /dev/null

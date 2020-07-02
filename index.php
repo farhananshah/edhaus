@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <?php $ROOT=true;?>
   <?php include("./components/headers.php");?>
   <title>Edhaus</title>
 </head>
@@ -83,15 +84,15 @@
     <h2>Contact Us</h2>
     <div class=contacts-wrapper>
       <div class="contact-icon">
-        <img src="/res/placeholder.svg"/>
+        <img src="res/placeholder.svg"/>
         <p>Twitter</p>
       </div>
       <div class="contact-icon">
-        <img src="/res/placeholder.svg"/>
+        <img src="res/placeholder.svg"/>
         <p>Instagram</p>
       </div>
       <div class="contact-icon">
-        <img src="/res/placeholder.svg"/>
+        <img src="res/placeholder.svg"/>
         <p>Email</p>
       </div>
     </div>

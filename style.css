@@ -10,6 +10,7 @@ body{
   font-family:serif;
   overflow-x:hidden;
   color:var(--text);
+  line-height:28px;
   margin:0;
 }
 h1,h2,h3{
@@ -57,8 +58,8 @@ a.more:hover{
 .navigation .options{
   background-color:var(--white);
   position:absolute;
-  padding:5px 15px;
-  padding-top:20px;
+  /*padding:5px 15px;
+  padding-top:20px;*/
   font-size:15px;
   display:none;
   width:200%;
@@ -69,15 +70,12 @@ a.more:hover{
   text-decoration:none;
   color:var(--blue);
   cursor:pointer;
+  padding:15px;
+
 }
 .navigation .options a{
   border-bottom:solid 1px black;
   display:block;
-  margin:10px 0;
-}
-.navigation .options a:last-of-type{
-  border-bottom:none;
-  margin-bottom:5px;
 }
 .navigation span:hover .options{
   display:block;
@@ -147,6 +145,9 @@ a.more:hover{
 }
 .products-wrapper > div{
   padding:15px;
+}
+.products-wrapper p{
+  margin:50px 0;
 }
 .products a{
   color:white;
