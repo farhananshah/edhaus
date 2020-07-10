@@ -25,7 +25,7 @@
   <div class="section contacts">
     <div class="contact-info">
       <div class="icon">
-        <img src="../res/placeholder.svg"/>
+        <img src="../res/blue-twitter.svg"/>
       </div>
       <div class="link">
         <h2>Twitter</h2>
@@ -34,7 +34,7 @@
     </div>
     <div class="contact-info">
       <div class="icon">
-        <img src="../res/placeholder.svg"/>
+        <img src="../res/blue-instagram.svg"/>
       </div>
       <div class="link">
         <h2>Instagram</h2>
@@ -43,7 +43,7 @@
     </div>
     <div class="contact-info">
       <div class="icon">
-        <img src="../res/placeholder.svg"/>
+        <img src="../res/blue-mail.svg"/>
       </div>
       <div class="link">
         <h2>LinkedIn</h2>

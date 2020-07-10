@@ -12,7 +12,7 @@
 
   <!-- Splash -->
   <div class="splash">
-    <img src="/res/business-card.png"/>
+    <img src="res/business-card.png"/>
   </div>
 
   <!-- About Us -->
@@ -84,15 +84,15 @@
     <h2>Contact Us</h2>
     <div class=contacts-wrapper>
       <div class="contact-icon">
-        <img src="res/placeholder.svg"/>
+        <img src="res/twitter.svg"/>
         <p>Twitter</p>
       </div>
       <div class="contact-icon">
-        <img src="res/placeholder.svg"/>
+        <img src="res/instagram.svg"/>
         <p>Instagram</p>
       </div>
       <div class="contact-icon">
-        <img src="res/placeholder.svg"/>
+        <img src="res/mail.svg"/>
         <p>Email</p>
       </div>
     </div>
