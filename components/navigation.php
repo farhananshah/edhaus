@@ -20,6 +20,7 @@
       <a href="<?php echo($PREFIX);?>testimonials">Testimonials</a>
       <a href="<?php echo($PREFIX);?>blogs">Blogs</a>
       <a href="<?php echo($PREFIX);?>podcasts">Podcasts</a>
+      <a href="<?php echo($PREFIX);?>publications">Publications</a>
     </div>
   </span>
   <span>

@@ -7,12 +7,14 @@ if [ "$?" -ne "0" ]; then
 fi
 mv localhost:2017 .build
 pages=(
-  clients
-  contact
+  testimonials
+  publications
   podcasts
   services
+  clients
+  contact
+  blogs
   team
-  testimonials
 )
 for page in "${pages[@]}"; do
   mv .build/$page .build/tmp

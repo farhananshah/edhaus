@@ -16,7 +16,7 @@
       <h1>Blogs</h1>
     </div>
 
-    <!-- Team -->
+    <!-- Blogs -->
     <div class="section blogs">
       <div class="blog">
         <img src="../res/blue-linkedin.svg"/>

@@ -16,7 +16,7 @@
       <h1>Testimonials</h1>
     </div>
 
-    <!-- Team -->
+    <!-- Testimonials -->
     <div class="section testimonials">
       <div>
         <h2>U.S. Embassy in Nepal</h2>
@@ -35,6 +35,22 @@
         <p>Amanda Jacobsen</p>
         <p>Cultural Affairs Officer</p>
         <p>U.S. Embassy in Nepal</p>
+      </div>
+      <div>
+        <h4><i>"There were some ideas that I feel that I could implement into my classroom immediately."</i></h4>
+        <p>Private school teacher, Maryland</p>
+      </div>
+      <div>
+        <h4><i>"An open, understanding, and welcoming environment was created right from the start. The instructor was kind, listened carefully and actively."</i></h4>
+        <p>MCPS Teacher, Maryland</p>
+      </div>
+      <div>
+        <h4><i>"Best course, what I learned in three hours was more than in other full day courses."</i></h4>
+        <p>BOE President, Maryland (2018)</p>
+      </div>
+      <div>
+        <h4><i>"I love the fact that the major components of the Islam were explained in a way that was easy to understand and connect. I feel very empowered after this session and more connected to my Muslim students. Knowledge is power. Thank you for this gift!"</i></h4>
+        <p>Ms Joyce, MCPS Teacher, Maryland</p>
       </div>
     </div>
 

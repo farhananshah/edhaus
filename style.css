@@ -291,6 +291,9 @@ a.more:hover{
 .testimonials > div{
   margin-bottom:50px;
 }
+.testimonials > div:not(:first-child){
+  border-top:solid 1px var(--text);
+}
 
 /* Podcasts */
 .podcasts{
