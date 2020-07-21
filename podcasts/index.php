@@ -16,8 +16,10 @@
       <h1>Podcasts</h1>
     </div>
 
-    <!-- Team -->
-    <div class="section podcasts">
+    <div class="coming-soon">Coming soon</div>
+
+    <!-- Podcasts -->
+    <!--<div class="section podcasts">
       <div class="podcast">
         <img src="../res/placeholder.svg"/>
         <h2>Podcast 1</h2>
@@ -58,7 +60,7 @@
         <a href="http://www.lugocorp.net">Spotify</a>
         <a href="http://www.lugocorp.net">Google</a>
       </div>
-    </div>
+    </div>-->
 
   </div>
 

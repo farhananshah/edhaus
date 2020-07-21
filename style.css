@@ -43,6 +43,12 @@ a.more:hover{
   text-decoration:underline;
   cursor:pointer;
 }
+.coming-soon{
+  font-weight:bold;
+  font-size:25px;
+  text-align:center;
+  margin:125px 0;
+}
 
 /* Header */
 .navigation{
@@ -240,6 +246,7 @@ a.more:hover{
 .team .member img{
   shape-outside:circle();
   margin-bottom:25px;
+  border-radius:50%;
   margin-right:25px;
   width:120px;
   float:left;
@@ -264,6 +271,13 @@ a.more:hover{
 }
 .clients .client{
   text-align:center;
+  position:relative;
+  margin-top:50px;
+}
+.clients .client > div{
+  transform:translateY(-100%);
+  position:relative;
+  top:100%;
 }
 .clients .client img{
   margin-bottom:15px;
@@ -271,6 +285,10 @@ a.more:hover{
 }
 .clients .client h2{
   margin:2px 0;
+}
+.clients .client a{
+  text-decoration:none;
+  color:var(--blue);
 }
 @media only screen and (max-width:1000px){
   .clients{
@@ -289,7 +307,8 @@ a.more:hover{
   margin-top:10px;
 }
 .testimonials > div{
-  margin-bottom:50px;
+  font-size:16px;
+  margin:35px 0;
 }
 .testimonials > div:not(:first-child){
   border-top:solid 1px var(--text);

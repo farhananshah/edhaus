@@ -19,7 +19,7 @@
     <!-- Team -->
     <div class="section team">
       <div class="member">
-        <img src="../res/placeholder.svg"/>
+        <img src="../res/farhana.jpeg"/>
         <div>
           <h2>Farhana N. Shah, Founder</h2>
           <p>

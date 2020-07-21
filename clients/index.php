@@ -19,19 +19,46 @@
     <!-- Team -->
     <div class="section clients">
       <div class="client">
-        <img src="../res/placeholder.svg"/>
-        <h2>Client 1</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div>
+          <img src="../res/dostate.png"/>
+          <h2><a href="https://www.state.gov/">U.S. Department of State</a></h2>
+        </div>
       </div>
       <div class="client">
-        <img src="../res/placeholder.svg"/>
-        <h2>Client 2</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div>
+          <img src="../res/isna.png"/>
+          <h2><a href="https://isna.net/">Islamic Society of North America</a></h2>
+        </div>
       </div>
       <div class="client">
-        <img src="../res/placeholder.svg"/>
-        <h2>Client 3</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div>
+          <img src="../res/pgcps.png"/>
+          <h2><a href="https://www.pgcps.org/">Prince George's County Public Schools</a></h2>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <img src="../res/smithsonian.png"/>
+          <h2><a href="https://www.si.edu/">Smithsonian</a></h2>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <img src="../res/mddoe.png"/>
+          <h2><a href="http://marylandpublicschools.org/Pages/default.aspx">Maryland State Department of Education</a></h2>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <img src="../res/njea.png"/>
+          <h2><a href="https://www.njea.org/">New Jersey Education Association</a></h2>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <img src="../res/ascd.png"/>
+          <h2><a href="http://www.ascd.org/Default.aspx">ASCD</a></h2>
+        </div>
       </div>
     </div>
 

@@ -25,8 +25,8 @@
         <li>Informal Observations</li>
         <li>Classroom Walk-through</li>
         <li>Teacher Self-Assessment and Student Feedback</li>
-        <li>Grade Monitoring</li>
-        <li>Digital Lesson Plan Book</li>
+        <li>Grade Monitoring (coming soon)</li>
+        <li>Digital Lesson Plan Book (coming soon)</li>
       </ul>
 
       <h2>English Language Curriculum (coming soon)</h2>
