@@ -23,6 +23,7 @@ h1,h2,h3{
 }
 .section{
   padding:50px 5%;
+  padding-top:25px;
 }
 @media only screen and (max-width:1000px){
   .section{
@@ -58,6 +59,7 @@ a.more:hover{
   position:fixed;
   font-size:25px;
   width:100%;
+  z-index:1;
   top:0;
 }
 .navigation span{
@@ -92,7 +94,13 @@ a.more:hover{
 .navigation span:hover .options{
   display:block;
 }
+.nav-guard{
+  height:55px;
+}
 @media only screen and (max-width:1000px){
+  .nav-guard{
+    display:none;
+  }
   .navigation{
     text-align:center;
     position:relative;
@@ -129,18 +137,18 @@ a.more:hover{
   font-weight:bold;
 }
 .splash img{
-  height:480px;
+  height:280px;
 }
 .splash h1{
   color:var(--white);
-  padding:100px 0;
+  padding:50px 0;
   margin:0;
 }
 @media only screen and (max-width:1000px){
   .splash img{
     position:relative;
     width:100vw;
-    height:60vw;
+    height:31vw;
     left:0;
   }
 }
@@ -207,6 +215,10 @@ a.more:hover{
   color:var(--white);
   text-align:center;
 }
+.contact a{
+  text-decoration:none;
+  color:var(--white);
+}
 .contacts-wrapper{
   grid-template-columns:33% 34% 33%;
   display:grid;
@@ -265,8 +277,7 @@ a.more:hover{
 
 /* Clients page */
 .clients{
-  grid-template-columns:33% 32% 33%;
-  grid-column-gap:1%;
+  grid-template-columns:25% 25% 25% 25%;
   display:grid;
 }
 .clients .client{
@@ -275,16 +286,13 @@ a.more:hover{
   margin-top:50px;
 }
 .clients .client > div{
-  transform:translateY(-100%);
+  transform:translateY(-50%);
   position:relative;
-  top:100%;
+  top:50%;
 }
 .clients .client img{
   margin-bottom:15px;
-  width:150px;
-}
-.clients .client h2{
-  margin:2px 0;
+  width:200px;
 }
 .clients .client a{
   text-decoration:none;
@@ -310,9 +318,9 @@ a.more:hover{
   font-size:16px;
   margin:35px 0;
 }
-.testimonials > div:not(:first-child){
+/*.testimonials > div:not(:first-child){
   border-top:solid 1px var(--text);
-}
+}*/
 
 /* Podcasts */
 .podcasts{
@@ -378,7 +386,7 @@ a.more:hover{
   display:grid;
 }
 .contact-info{
-  grid-template-columns:50% 50%;
+  grid-template-columns:100px calc(100% - 100px);
   grid-column-gap:25px;
   margin-bottom:50px;
   display:grid;

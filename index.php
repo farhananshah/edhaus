@@ -41,7 +41,8 @@
         for every client.
       </p>
       <p>
-        EDHAUS also caters to clients outside of educational institutes.
+        <!--EDHAUS also caters to clients outside of educational institutes.-->
+        Farhana N. Shah holds a master’s degree and several certifications in Education. Her career spans over 20 years of teaching in the classroom, leading teams, evaluating teachers, and providing staff development in the U.S. and abroad. She possesses a proven history of successfully implementing key development and growth strategies within members of her leadership team. In 2018 she was a recipient of the MDTESOL Professional Development Award.
       </p>
     </div>
 
@@ -78,18 +79,18 @@
     <div class="section contact">
       <h2>Contact Us</h2>
       <div class=contacts-wrapper>
-        <div class="contact-icon">
+        <a class="contact-icon" href="https://twitter.com/farhananshah">
           <img src="res/twitter.svg"/>
           <p>Twitter</p>
-        </div>
-        <div class="contact-icon">
+        </a>
+        <a class="contact-icon" href="https://www.instagram.com/farhananshah/">
           <img src="res/instagram.svg"/>
           <p>Instagram</p>
-        </div>
-        <div class="contact-icon">
+        </a>
+        <a class="contact-icon" href="mailto:farhana@shah.org">
           <img src="res/mail.svg"/>
           <p>Email</p>
-        </div>
+        </a>
       </div>
     </div>
 

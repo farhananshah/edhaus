@@ -1,11 +1,12 @@
 <?php $PREFIX=isset($ROOT)?"":"../" ?>
 <div class="navigation">
   <span>
-    <span class="dropdown">Home</span>
+    <!--<span class="dropdown">Home</span>
     <div class="options">
       <a href="<?php echo($PREFIX);?>">Home</a>
       <a href="<?php echo($PREFIX);?>team">Team</a>
-    </div>
+    </div>-->
+    <a href="<?php echo($PREFIX);?>">Home</a>
   </span>
   <span>
     <span class="dropdown">Products & Services</span>
@@ -27,3 +28,4 @@
     <a href="<?php echo($PREFIX);?>contact">Contact</a>
   </span>
 </div>
+<div class="nav-guard"></div>
