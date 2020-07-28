@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <?php $ROOT=true;?>
+  <?php $PREFIX="./";?>
   <?php include("./components/headers.php");?>
   <title>Edhaus</title>
 </head>
@@ -21,28 +21,19 @@
     <div class="section about">
       <h2>About Us</h2>
       <p>
-        EDHAUS strives to empower, educate, and inform teachers and leaders in educational institutions and
-        schools by offering individuals and teams, training, coaching and professional development to achieve
-        results.
+        Edhaus strives to empower and educate leaders in educational institutions and schools by
+        offering training and professional development for their staff. Educational institutions are being
+        charged with demands at all levels, in-person and online. In addition, they are expected to keep
+        up with new research and effective practices. Edhaus can be a support because we know
+        professional development is a key in meeting needs of today’s increasing demands for teaching
+        and learning. We also provide customized trainings and workshops to clients outside of
+        educational institutes on topics related to building effective teams, management, and Diversity.
       </p>
       <p>
-        We know educational institutions are being charged with demands at all levels, in-person and online. In
-        addition, they are expected to keep up with new research and effective practices. This is where EDHAUS
-        can be a support because we know professional development is a key in meeting needs of today’s
-        increasing demands for educators. EDHAUS team has the experience and knows that teaching and
-        learning go hand in hand. Data collected shows effective professional development changes teaching
-        practices when implemented.
-      </p>
-      <p>
-        Professional development is a systemic process which includes staff from central office to building
-        services; therefore, EDHAUS utilizes the most effective components of professional development in their
-        trainings, workshops, and coaching sessions. EDHAUS offers sessions and trainings in most every area
-        of teaching, learning, and instruction. We customize trainings and workshops to make them meaningful
-        for every client.
-      </p>
-      <p>
-        <!--EDHAUS also caters to clients outside of educational institutes.-->
-        Farhana N. Shah holds a master’s degree and several certifications in Education. Her career spans over 20 years of teaching in the classroom, leading teams, evaluating teachers, and providing staff development in the U.S. and abroad. She possesses a proven history of successfully implementing key development and growth strategies within members of her leadership team. In 2018 she was a recipient of the MDTESOL Professional Development Award.
+        Farhana N. Shah holds a master’s degree and several certifications in Education. Her career
+        spans over 20 years of teaching in the classroom, leading teams, evaluating teachers, and
+        providing staff development in the U.S. and abroad. She possesses a proven history of
+        successfully implementing key development and growth strategies.
       </p>
     </div>
 

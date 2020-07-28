@@ -1,31 +1,35 @@
 #!/bin/bash
-rm -rf .build
-wget -r http://localhost:2017 > /dev/null 2>&1
-if [ "$?" -ne "0" ]; then
-  echo "Please turn on a server"
-  exit 1
-fi
-mv localhost:2017 .build
-pages=(
-  testimonials
-  publications
-  podcasts
-  services
-  clients
-  contact
-  blogs
-  team
+BUILD=../.build
+rm -rf $BUILD
+cp -r . $BUILD
+
+# Remove unwanted files
+remove=(
+  .gitignore
+  README.md
+  build
+  .git
 )
-for page in "${pages[@]}"; do
-  mv .build/$page .build/tmp
-  mkdir .build/$page
-  mv .build/tmp .build/$page/index.html
+for file in "${remove[@]}"; do
+  rm -rf $BUILD/$file
 done
 
-pushd .build > /dev/null
+# Convert PHP pages to static HTML
+pushd $BUILD > /dev/null
+files=( $(find . | grep *index.php) )
+for file in "${files[@]}"; do
+  pushd "$(dirname $file)" > /dev/null
+  php index.php > index.html
+  rm -f index.php
+  popd > /dev/null
+done
+rm -rf components
+
+# Push with git
 git init
 git remote add origin https://github.com/farhananshah/edhaus.git
 git add .
 git commit -m "Update on $(date)"
 git push -f origin master:gh-pages
 popd > /dev/null
+mv $BUILD .

@@ -19,7 +19,7 @@ h1,h2,h3{
   color:var(--blue);
 }
 .content{
-  min-height:calc(100vh - 58px);
+  min-height:calc(100vh - 113px);
 }
 .section{
   padding:50px 5%;
@@ -380,13 +380,28 @@ a.more:hover{
   }
 }
 
+/* Blog content */
+.blog-content{
+  margin:50px 5%;
+}
+.blog-content h2{
+  margin-top:50px;
+}
+.blog-content a.external{
+  color:var(--blue);
+  text-decoration:none;
+  text-align:center;
+  margin-top:50px;
+  display:block;
+}
+
 /* Contacts */
 .contacts{
   grid-template-columns:50% 50%;
   display:grid;
 }
 .contact-info{
-  grid-template-columns:100px calc(100% - 100px);
+  grid-template-columns:70px calc(100% - 70px);
   grid-column-gap:25px;
   margin-bottom:50px;
   display:grid;
@@ -395,8 +410,8 @@ a.more:hover{
   text-align:right;
 }
 .contact-info .icon img{
-  height:90px;
-  width:90px;
+  height:60px;
+  width:60px;
 }
 .contact-info h2{
   margin-bottom:5px;

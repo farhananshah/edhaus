@@ -22,7 +22,7 @@
         <img src="../res/book.svg"/>
         <h2>Mirror on the Veil: A Collection of Personal Essays on Hijab and Veiling</h2>
         <p>
-          Put short excerpt here
+          Read my short narrative in this anthology of essays about Muslim women who choose to observe their faith. It uncovers some of the assumptions and stereotypes about Muslim women.
         </p>
         <a href="https://www.amazon.com/Mirror-Veil-Collection-Personal-Veiling-ebook/dp/B0865JCTTX">Read more</a>
       </div>
@@ -49,6 +49,22 @@
           Imagine if you were a Muslim student in your school. What would it be like for you in this time of Islamophobia? As an educator, ask yourself what you know about the Muslim students in your school and district, and what you can do to alleviate the situation to make all students comfortable and ready to learn.
         </p>
         <a href="https://www.njea.org/american-muslim-students-need-understanding-support/">Read more</a>
+      </div>
+      <div class="blog">
+        <img src="../res/article.svg"/>
+        <h2>The Sights and Sounds of Equitable Practices</h2>
+        <p>
+          Produced by Association of Supervision for Curriculum Development (ASCD). This video
+          captures an interview segment and leading a staff in a Diversity training on Equitable
+          Practices classroom practices session. It is a tool to help staff think about their teaching
+          practices when building relationship and engaging students, especially those underserved.
+        </p>
+      </div>
+      <div class="blog">
+        <iframe width="480" height="270" src="https://www.youtube.com/embed/AYCCpm0xqQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="blog">
+        <iframe width="480" height="270" src="https://www.youtube.com/embed/Kxs6rYuiYpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
