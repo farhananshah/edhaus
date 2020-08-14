@@ -49,7 +49,7 @@
       <div class="client">
         <div>
           <a href="http://marylandpublicschools.org/Pages/default.aspx">
-            <img src="../res/mddoe.png" title="Maryland State Department of Education"/>
+            <img src="../res/mddoe.png" title="Maryland State Department of Education" class="black-img"/>
           </a>
         </div>
       </div>
@@ -64,6 +64,48 @@
         <div>
           <a href="http://www.ascd.org/Default.aspx">
             <img src="../res/ascd.png" title="ASCD"/>
+          </a>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <a href="https://www.alhudaschoolmd.org/">
+            <img src="../res/al-huda.png" title="Al-Huda School"/>
+          </a>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <a href="https://alrahmah.org/">
+            <img src="../res/alrahmah.png" title="Al-Rahmah School"/>
+          </a>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <a href="https://icclmd.org/">
+            <img src="../res/iccl.png" title="ICCL Academy"/>
+          </a>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <a href="https://mccmd.org/">
+            <img src="../res/mcc.png" title="Muslim Community Center"/>
+          </a>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <a href="https://www.mdtesol.org/">
+            <img src="../res/mdtesol.png" title="MDTESOL" class="black-img"/>
+          </a>
+        </div>
+      </div>
+      <div class="client">
+        <div>
+          <a href="https://www.mmlearningcenter.net/">
+            <img src="../res/mmacademy.png" title="M&M Academy"/>
           </a>
         </div>
       </div>

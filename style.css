@@ -294,6 +294,9 @@ a.more:hover{
   margin-bottom:15px;
   width:200px;
 }
+.clients .client img.black-img{
+  background-color:black;
+}
 .clients .client a{
   text-decoration:none;
   color:var(--blue);

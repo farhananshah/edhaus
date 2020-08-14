@@ -19,7 +19,7 @@
     <!-- Testimonials -->
     <div class="section testimonials">
       <div>
-        <h2>U.S. Embassy in Nepal (by Amanda Jacobson, (Cultural Affairs Officer)</h2>
+        <h2>U.S. Embassy in Nepal (by Amanda Jacobson, Cultural Affairs Officer)</h2>
         <p>
           The Public Affairs Section of the U.S. Embassy in Nepal programmed Ms. Farhana Shah with
           the State Department's U.S. Speaker program in 2011. Over the course of ten days Ms. Shah

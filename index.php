@@ -19,7 +19,7 @@
 
     <!-- About Us -->
     <div class="section about">
-      <h2>About Us</h2>
+      <h2>About</h2>
       <p>
         Edhaus strives to empower and educate leaders in educational institutions and schools by
         offering training and professional development for their staff. Educational institutions are being
@@ -38,7 +38,7 @@
     </div>
 
     <!-- Services and Products -->
-    <div class="section products">
+    <!--<div class="section products">
       <h2>Services and Products</h2>
       <div class="products-wrapper">
         <div>
@@ -53,10 +53,10 @@
         </div>
       </div>
       <a class="more" href="services">See more</a>
-    </div>
+    </div>-->
 
     <!-- Testimonials -->
-    <div class="section testimonials">
+    <!--<div class="section testimonials">
       <div class="testimonials-wrapper">
         <div class="testimonial">
           "<i>The Public Affairs Section of the U.S. Embassy in Nepal programmed Ms. Farhana Shah, a Staff Development Teacher of Montgomery Country Public Schools with the State Department's U.S. Speaker program from February 13 — 22, 2011. Over the course of ten days Ms. Shah gave teacher training workshops on enhancing instruction techniques, curriculum development, leadership skills, classroom management, and effective implementation of extracurricular activities to teachers in Kathmandu and Nepalgunj. Ms. Shah also gave two sessions at the international Nepal English Language Teachers' Association's annual conference in Kathmandu and Pokhara. In addition, Ms. Shah gave public presentations to youth, students, teachers, and community leaders on a variety of topics related to U.S. society, culture, and education. Her command of the Urdu language was extremely useful in the programs outside of Kathmandu, enabling her to intimately connect with her audiences. Her programs impacted more than 300 individuals in total.</i>"
@@ -64,7 +64,7 @@
         </div>
       </div>
       <a class="more" href="testimonials">See more</a>
-    </div>
+    </div>-->
 
     <!-- Contact us -->
     <div class="section contact">
