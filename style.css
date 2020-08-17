@@ -1,14 +1,13 @@
 :root{
   --blue:#18467c;
-  --yellow:#f2b41c;
   --white:#ffffff;
-  --light:#63a5f2;
-  --black:black;
-  --text:black;
+  --light:#f2b41c;
+  --black:#4B4C4C;
+  --text:#4B4C4C;
 }
 body{
   background-color:var(--white);
-  font-family:serif;
+  font-family:"Lora";
   overflow-x:hidden;
   color:var(--text);
   line-height:28px;
@@ -16,14 +15,21 @@ body{
   margin:0;
 }
 h1,h2,h3{
+  font-family:"Futura";
   color:var(--blue);
 }
 .content{
   min-height:calc(100vh - 113px);
 }
 .section{
-  padding:50px 5%;
+  padding:50px 15%;
   padding-top:25px;
+}
+.new{
+  transform:translateY(25%);
+  position:relative;
+  margin-left:15px;
+  width:75px;
 }
 @media only screen and (max-width:1000px){
   .section{
@@ -33,16 +39,14 @@ h1,h2,h3{
     text-align:center;
   }
 }
-a.more{
+a{
+  transition:color 0.1s ease;
   text-decoration:none;
-  text-align:center;
   color:var(--blue);
-  font-weight:bold;
-  display:block;
 }
-a.more:hover{
-  text-decoration:underline;
-  cursor:pointer;
+a:hover{
+  text-decoration:none;
+  color:var(--light);
 }
 .coming-soon{
   font-weight:bold;
@@ -50,14 +54,24 @@ a.more:hover{
   text-align:center;
   margin:125px 0;
 }
+@font-face{
+  font-family:"Lora";
+  src:url("res/lora.ttf");
+}
+@font-face{
+  font-family:"Futura";
+  src:url("res/futura.ttf");
+}
 
 /* Header */
 .navigation{
+  border-right:solid 1px black;
   box-shadow:0 0 4px var(--black);
   background-color:var(--white);
+  font-family:"Futura";
   padding:15px 5px;
-  position:fixed;
   font-size:25px;
+  position:fixed;
   width:100%;
   z-index:1;
   top:0;
@@ -68,10 +82,13 @@ a.more:hover{
   font-weight:bold;
   margin:0 25px;
 }
+.navigation .dropdown:hover{
+  color:var(--light);
+}
 .navigation .options{
   background-color:var(--white);
   position:absolute;
-  font-size:15px;
+  padding-top:13px;
   display:none;
   width:200%;
   left:-15px;
@@ -82,14 +99,17 @@ a.more:hover{
   color:var(--blue);
   cursor:pointer;
   padding:15px;
-
+}
+.navigation a:hover{
+  color:var(--light);
 }
 .navigation .options a{
-  border-bottom:solid 1px black;
+  border-right:solid 1px var(--black);
+  border-left:solid 1px var(--black);
   display:block;
 }
-.navigation .options a:first-child{
-  padding-top:30px;
+.navigation .options a:last-child{
+  border-bottom:solid 1px var(--black);
 }
 .navigation span:hover .options{
   display:block;
@@ -101,6 +121,9 @@ a.more:hover{
   .nav-guard{
     display:none;
   }
+  .navigation a{
+    display:block;
+  }
   .navigation{
     text-align:center;
     position:relative;
@@ -111,6 +134,7 @@ a.more:hover{
   .navigation .options{
     position:relative;
     display:block;
+    padding-top:0;
     width:100%;
     padding:0;
     left:0;
@@ -119,9 +143,10 @@ a.more:hover{
     border-bottom:none;
     font-size:25px;
     display:block;
+    border:none;
   }
-  .navigation .options a:first-child{
-    padding-top:15px;
+  .navigation .options a:last-child{
+    border:none;
   }
   .navigation span{
     display:block;
@@ -321,9 +346,6 @@ a.more:hover{
   font-size:16px;
   margin:35px 0;
 }
-/*.testimonials > div:not(:first-child){
-  border-top:solid 1px var(--text);
-}*/
 
 /* Podcasts */
 .podcasts{
@@ -373,8 +395,6 @@ a.more:hover{
   margin:5px 0;
 }
 .blog a{
-  text-decoration:none;
-  color:var(--blue);
   font-weight:bold;
 }
 @media only screen and (max-width:1000px){
@@ -420,10 +440,6 @@ a.more:hover{
   margin-bottom:5px;
   text-align:left;
   margin-top:0;
-}
-.contact-info a{
-  text-decoration:none;
-  color:var(--blue);
 }
 @media only screen and (max-width:1000px){
   .contacts{
