@@ -56,7 +56,7 @@ a:hover{
 }
 @font-face{
   font-family:"Lora";
-  src:url("res/lora.ttf");
+  src:url("res/Lora-Regular.ttf");
 }
 @font-face{
   font-family:"Futura";
@@ -178,6 +178,18 @@ a:hover{
   }
 }
 
+/* Other front page stuff */
+.member img{
+  border-radius:50%;
+  margin-right:50px;
+  width:150px;
+}
+.member{
+  grid-template-columns:175px calc(100% - 175px);
+  margin-bottom:25px;
+  display:grid;
+}
+
 /* Services/Products */
 .products{
   background-color:var(--blue);
@@ -267,6 +279,7 @@ a:hover{
 
 /* Footer */
 .footer{
+  border-top:solid 5px var(--white);
   background-color:var(--black);
   color:var(--white);
   text-align:center;
@@ -274,38 +287,15 @@ a:hover{
   padding:15px 0;
 }
 
-
-
-/* Team page */
-.team .member{
-  margin-bottom:100px;
-}
-.team .member img{
-  shape-outside:circle();
-  margin-bottom:25px;
-  border-radius:50%;
-  margin-right:25px;
-  width:120px;
-  float:left;
-}
-@media only screen and (max-width:1000px){
-  .team .member{
-    text-align:center;
-  }
-  .team .member img{
-    shape-outside:none;
-    display:block;
-    margin:auto;
-    float:none;
-  }
-}
-
 /* Clients page */
 .clients{
-  grid-template-columns:25% 25% 25% 25%;
+  grid-template-columns:25% 24% 24% 24%;
+  grid-column-gap:1%;
   display:grid;
 }
 .clients .client{
+  border:solid 1px #c2c2c2;
+  /*background-color:#e2e2e2;*/
   text-align:center;
   position:relative;
   margin-top:50px;
@@ -316,8 +306,8 @@ a:hover{
   top:50%;
 }
 .clients .client img{
-  margin-bottom:15px;
-  width:200px;
+  margin:15px 0;
+  width:80%;
 }
 .clients .client img.black-img{
   background-color:black;

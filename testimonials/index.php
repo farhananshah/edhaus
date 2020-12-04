@@ -35,27 +35,27 @@
         </p>
       </div>
       <div>
+        <h2>Rahmah School Teacher, Maryland</h2>
         <p>
-          <b><i>"There were some ideas that I feel that I could implement into my classroom immediately."</i></b>
-          Rahmah School Teacher, Maryland
+          There were some ideas that I feel that I could implement into my classroom immediately.
         </p>
       </div>
       <div>
+        <h2>Montgomery County Public School Teacher, Maryland</h2>
         <p>
-          <b><i>"An open, understanding, and welcoming environment was created right from the start. The instructor was kind, listened carefully and actively."</i></b>
-          Montgomery County Public School Teacher, Maryland
+          An open, understanding, and welcoming environment was created right from the start. The instructor was kind, listened carefully and actively.
         </p>
       </div>
       <div>
+        <h2>Durso, Board of Education President, Maryland (2018)</h2>
         <p>
-          <b><i>"Best course, what I learned in three hours was more than in other full day courses."</i></b>
-          Durso, Board of Education President, Maryland (2018)
+          Best course, what I learned in three hours was more than in other full day courses.
         </p>
       </div>
       <div>
+        <h2>Ms. Joyce, Montgomery County Public School Teacher, Maryland</h2>
         <p>
-          <b><i>"I love the fact that the major components of the Islam were explained in a way that was easy to understand and connect. I feel very empowered after this session and more connected to my Muslim students. Knowledge is power. Thank you for this gift!"</i></b>
-          Ms. Joyce, Montgomery County Public School Teacher, Maryland
+          I love the fact that the major components of the Islam were explained in a way that was easy to understand and connect. I feel very empowered after this session and more connected to my Muslim students. Knowledge is power. Thank you for this gift!
         </p>
       </div>
     </div>

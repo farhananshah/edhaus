@@ -19,7 +19,7 @@
     <!-- Team -->
     <div class="section services">
 
-      <h2>New Trainings 2020 <img class="new" src="res/starburst.svg"/></h2>
+      <h2>New Trainings 2020 <img class="new" src="../res/starburst.svg"/></h2>
       <ul>
         <li>Brain-based Teaching and Learning</li>
         <li>Distance Learning Strategies</li>

@@ -21,50 +21,79 @@
     <div class="section about">
       <h2>About</h2>
       <p>
-        Edhaus strives to empower and educate leaders in educational institutions and schools by
-        offering training and professional development for their staff. Educational institutions are being
-        charged with demands at all levels, in-person and online. In addition, they are expected to keep
-        up with new research and effective practices. Edhaus can be a support because we know
-        professional development is a key in meeting needs of today’s increasing demands for teaching
-        and learning. We also provide customized trainings and workshops to clients outside of
-        educational institutes on topics related to building effective teams, management, and Diversity.
+        Edhaus strives to empower and educate leaders in educational institutions
+        and schools by offering training and professional development for their
+        staff. Educational institutions are being charged with demands at all
+        levels, in-person and online. In addition, they are expected to keep up
+        with new research and effective practices. Edhaus can be a support
+        because we know professional development is a key in meeting needs of
+        today’s increasing demands for teaching and learning. We also provide
+        customized trainings and workshops to clients outside of educational
+        institutes on topics related to building effective teams, management, and
+        Diversity and inclusion (to name a few).
+      </p>
+
+      <h2>Name</h2>
+      <p><b>EDHAUS</b> in German means, “house of education”.<p>
+      <p>
+        We selected this name because it encompasses all that serves education
+        and growth for professionals to perform their best across the globe.
+      </p>
+
+      <h2>Approach and Process</h2>
+      <p>
+        We know that professional development is a systemic process which includes staff from central office to
+        building services; therefore, utilize the most effective components of professional development in our
+        trainings, workshops, and coaching sessions. Trainings and workshops are customized to meet the need
+        of each client. Our process involves the following steps to ensure successful delivery of our professional
+        development:
+      </p>
+      <ol>
+        <li>Conduct needs assessment</li>
+        <li>Participate in evaluation</li>
+        <li>Collect and analyze data</li>
+        <li>Conduct debrief and follow-up sessions</li>
+      </ol>
+
+      <h2>Team</h2>
+      <p>
+        We provide professional, balanced, and accurate insight and perspectives
+        on a global level, having lived and worked extensively in the United States,
+        as well as traveled in the Middle East and South Asia.
       </p>
       <p>
-        Farhana N. Shah holds a master’s degree and several certifications in Education. Her career
-        spans over 20 years of teaching in the classroom, leading teams, evaluating teachers, and
-        providing staff development in the U.S. and abroad. She possesses a proven history of
-        successfully implementing key development and growth strategies.
+        Our team consists of professionals from various backgrounds that focus
+        on productive outcomes for the future of our global exchange of
+        information.
       </p>
+      <p>
+        EDHAUS Consulting provide outstanding services and values to our
+        clients’ overall satisfaction and continue to pursue attractive growth
+        opportunities.
+      </p>
+
+      <h2>Members</h2>
+      <div class="member">
+        <div class="pic">
+          <img src="res/farhana.jpg"/>
+        </div>
+        <p>
+          Farhana N. Shah holds a M. Ed and several certifications in Education. Her
+          career spans over 20 years of teaching in the classroom, leading teams,
+          evaluating teachers, and providing staff development in the U.S. and
+          abroad. She possesses a proven history of successfully implementing key
+          development and growth strategies.
+        </p>
+      </div>
+      <div class="member">
+        <div class="pic">
+          <img src="res/imran-shah.png"/>
+        </div>
+        <p>
+          Imran Shah is Edhaus's Business and Technical Advisor.
+        </p>
+      </div>
     </div>
-
-    <!-- Services and Products -->
-    <!--<div class="section products">
-      <h2>Services and Products</h2>
-      <div class="products-wrapper">
-        <div>
-          <p>Online Teacher Performance and Evaluation System</p>
-        </div>
-        <div>
-          <p>English Language Curriculum (coming soon)</p>
-          <p>Trainings and Workshops for Educational Organizations</p>
-        </div>
-        <div>
-          <p>Online Tutoring Platform (coming soon)</p>
-        </div>
-      </div>
-      <a class="more" href="services">See more</a>
-    </div>-->
-
-    <!-- Testimonials -->
-    <!--<div class="section testimonials">
-      <div class="testimonials-wrapper">
-        <div class="testimonial">
-          "<i>The Public Affairs Section of the U.S. Embassy in Nepal programmed Ms. Farhana Shah, a Staff Development Teacher of Montgomery Country Public Schools with the State Department's U.S. Speaker program from February 13 — 22, 2011. Over the course of ten days Ms. Shah gave teacher training workshops on enhancing instruction techniques, curriculum development, leadership skills, classroom management, and effective implementation of extracurricular activities to teachers in Kathmandu and Nepalgunj. Ms. Shah also gave two sessions at the international Nepal English Language Teachers' Association's annual conference in Kathmandu and Pokhara. In addition, Ms. Shah gave public presentations to youth, students, teachers, and community leaders on a variety of topics related to U.S. society, culture, and education. Her command of the Urdu language was extremely useful in the programs outside of Kathmandu, enabling her to intimately connect with her audiences. Her programs impacted more than 300 individuals in total.</i>"
-          <p>Amanda Jacobsen, U.S. Embassy in Nepal</p>
-        </div>
-      </div>
-      <a class="more" href="testimonials">See more</a>
-    </div>-->
 
     <!-- Contact us -->
     <div class="section contact">
