@@ -1,14 +1,13 @@
 :root{
   --blue:#18467c;
-  --yellow:#f2b41c;
   --white:#ffffff;
-  --light:#63a5f2;
-  --black:black;
-  --text:black;
+  --light:#f2b41c;
+  --black:#4B4C4C;
+  --text:#4B4C4C;
 }
 body{
   background-color:var(--white);
-  font-family:serif;
+  font-family:"Lora";
   overflow-x:hidden;
   color:var(--text);
   line-height:28px;
@@ -16,14 +15,21 @@ body{
   margin:0;
 }
 h1,h2,h3{
+  font-family:"Futura";
   color:var(--blue);
 }
 .content{
   min-height:calc(100vh - 113px);
 }
 .section{
-  padding:50px 5%;
+  padding:50px 15%;
   padding-top:25px;
+}
+.new{
+  transform:translateY(25%);
+  position:relative;
+  margin-left:15px;
+  width:75px;
 }
 @media only screen and (max-width:1000px){
   .section{
@@ -33,16 +39,14 @@ h1,h2,h3{
     text-align:center;
   }
 }
-a.more{
+a{
+  transition:color 0.1s ease;
   text-decoration:none;
-  text-align:center;
   color:var(--blue);
-  font-weight:bold;
-  display:block;
 }
-a.more:hover{
-  text-decoration:underline;
-  cursor:pointer;
+a:hover{
+  text-decoration:none;
+  color:var(--light);
 }
 .coming-soon{
   font-weight:bold;
@@ -50,28 +54,46 @@ a.more:hover{
   text-align:center;
   margin:125px 0;
 }
+@font-face{
+  font-family:"Lora";
+  src:url("res/Lora-Regular.ttf");
+}
+@font-face{
+  font-family:"Futura";
+  src:url("res/futura.ttf");
+}
 
 /* Header */
 .navigation{
+  border-right:solid 1px black;
   box-shadow:0 0 4px var(--black);
   background-color:var(--white);
+  font-family:"Futura";
   padding:15px 5px;
-  position:fixed;
   font-size:25px;
+  position:fixed;
   width:100%;
   z-index:1;
   top:0;
 }
+.navigation h1{
+  font-size:45px;
+  display:inline;
+  margin:0 15px;
+}
 .navigation span{
   position:relative;
-  color:var(--blue);
+  color:var(--black);
   font-weight:bold;
   margin:0 25px;
+}
+.navigation .dropdown:hover{
+  color:var(--light);
 }
 .navigation .options{
   background-color:var(--white);
   position:absolute;
-  font-size:15px;
+  padding-top:13px;
   display:none;
   width:200%;
   left:-15px;
@@ -79,17 +101,20 @@ a.more:hover{
 }
 .navigation a{
   text-decoration:none;
-  color:var(--blue);
+  color:var(--black);
   cursor:pointer;
   padding:15px;
-
+}
+.navigation a:hover{
+  color:var(--light);
 }
 .navigation .options a{
-  border-bottom:solid 1px black;
+  border-right:solid 1px var(--black);
+  border-left:solid 1px var(--black);
   display:block;
 }
-.navigation .options a:first-child{
-  padding-top:30px;
+.navigation .options a:last-child{
+  border-bottom:solid 1px var(--black);
 }
 .navigation span:hover .options{
   display:block;
@@ -101,6 +126,9 @@ a.more:hover{
   .nav-guard{
     display:none;
   }
+  .navigation a{
+    display:block;
+  }
   .navigation{
     text-align:center;
     position:relative;
@@ -111,6 +139,7 @@ a.more:hover{
   .navigation .options{
     position:relative;
     display:block;
+    padding-top:0;
     width:100%;
     padding:0;
     left:0;
@@ -119,9 +148,10 @@ a.more:hover{
     border-bottom:none;
     font-size:25px;
     display:block;
+    border:none;
   }
-  .navigation .options a:first-child{
-    padding-top:15px;
+  .navigation .options a:last-child{
+    border:none;
   }
   .navigation span{
     display:block;
@@ -137,7 +167,7 @@ a.more:hover{
   font-weight:bold;
 }
 .splash img{
-  height:280px;
+  height:200px;
 }
 .splash h1{
   color:var(--white);
@@ -151,6 +181,18 @@ a.more:hover{
     height:31vw;
     left:0;
   }
+}
+
+/* Other front page stuff */
+.member img{
+  border-radius:50%;
+  margin-right:50px;
+  width:150px;
+}
+.member{
+  grid-template-columns:175px calc(100% - 175px);
+  margin-bottom:25px;
+  display:grid;
 }
 
 /* Services/Products */
@@ -242,6 +284,7 @@ a.more:hover{
 
 /* Footer */
 .footer{
+  border-top:solid 5px var(--white);
   background-color:var(--black);
   color:var(--white);
   text-align:center;
@@ -249,38 +292,15 @@ a.more:hover{
   padding:15px 0;
 }
 
-
-
-/* Team page */
-.team .member{
-  margin-bottom:100px;
-}
-.team .member img{
-  shape-outside:circle();
-  margin-bottom:25px;
-  border-radius:50%;
-  margin-right:25px;
-  width:120px;
-  float:left;
-}
-@media only screen and (max-width:1000px){
-  .team .member{
-    text-align:center;
-  }
-  .team .member img{
-    shape-outside:none;
-    display:block;
-    margin:auto;
-    float:none;
-  }
-}
-
 /* Clients page */
 .clients{
-  grid-template-columns:25% 25% 25% 25%;
+  grid-template-columns:25% 24% 24% 24%;
+  grid-column-gap:1%;
   display:grid;
 }
 .clients .client{
+  border:solid 1px #c2c2c2;
+  /*background-color:#e2e2e2;*/
   text-align:center;
   position:relative;
   margin-top:50px;
@@ -291,8 +311,11 @@ a.more:hover{
   top:50%;
 }
 .clients .client img{
-  margin-bottom:15px;
-  width:200px;
+  margin:15px 0;
+  width:80%;
+}
+.clients .client img.black-img{
+  background-color:black;
 }
 .clients .client a{
   text-decoration:none;
@@ -318,9 +341,6 @@ a.more:hover{
   font-size:16px;
   margin:35px 0;
 }
-/*.testimonials > div:not(:first-child){
-  border-top:solid 1px var(--text);
-}*/
 
 /* Podcasts */
 .podcasts{
@@ -370,8 +390,6 @@ a.more:hover{
   margin:5px 0;
 }
 .blog a{
-  text-decoration:none;
-  color:var(--blue);
   font-weight:bold;
 }
 @media only screen and (max-width:1000px){
@@ -417,10 +435,6 @@ a.more:hover{
   margin-bottom:5px;
   text-align:left;
   margin-top:0;
-}
-.contact-info a{
-  text-decoration:none;
-  color:var(--blue);
 }
 @media only screen and (max-width:1000px){
   .contacts{
