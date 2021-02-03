@@ -34,11 +34,7 @@
       </p>
 
       <h2>Name</h2>
-      <p><b>EDHAUS</b> in German means, “house of education”.<p>
-      <p>
-        We selected this name because it encompasses all that serves education
-        and growth for professionals to perform their best across the globe.
-      </p>
+      <p>The name ‘Edhaus’ is derived from the Bauhaus school in Germany which was an art movement or school that was a precursor to the way we teach Kindergarten today. It valued creativity, gentleness with children and education.</p>
 
       <h2>Approach and Process</h2>
       <p>
@@ -77,21 +73,27 @@
         <div class="pic">
           <img src="res/farhana.jpg"/>
         </div>
-        <p>
-          Farhana N. Shah holds a M. Ed and several certifications in Education. Her
-          career spans over 20 years of teaching in the classroom, leading teams,
-          evaluating teachers, and providing staff development in the U.S. and
-          abroad. She possesses a proven history of successfully implementing key
-          development and growth strategies.
-        </p>
+        <div>
+          <h2>Founder</h2>
+          <p>
+            Farhana N. Shah holds a M. Ed and several certifications in Education. Her
+            career spans over 20 years of teaching in the classroom, leading teams,
+            evaluating teachers, and providing staff development in the U.S. and
+            abroad. She possesses a proven history of successfully implementing key
+            development and growth strategies.
+          </p>
+        </div>
       </div>
       <div class="member">
         <div class="pic">
-          <img src="res/imran-shah.png"/>
+          <img src="res/seema.jpeg"/>
         </div>
-        <p>
-          Imran Shah is Edhaus's Business and Technical Advisor.
-        </p>
+        <div>
+          <h2>Research and Digital Team Lead</h2>
+          <p>
+            Seema Ahmed has an Information Systems degree from Kennesaw State University.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -99,18 +101,20 @@
     <div class="section contact">
       <h2>Contact Us</h2>
       <div class=contacts-wrapper>
-        <a class="contact-icon" href="https://twitter.com/farhananshah">
+        <!--<a class="contact-icon" href="https://twitter.com/farhananshah">
           <img src="res/twitter.svg"/>
           <p>Twitter</p>
-        </a>
-        <a class="contact-icon" href="https://www.instagram.com/farhananshah/">
+        </a>-->
+        <div></div>
+        <!--<a class="contact-icon" href="https://www.instagram.com/farhananshah/">
           <img src="res/instagram.svg"/>
           <p>Instagram</p>
-        </a>
+        </a>-->
         <a class="contact-icon" href="mailto:farhana@shah.org">
           <img src="res/mail.svg"/>
           <p>Email</p>
         </a>
+        <div></div>
       </div>
     </div>
 

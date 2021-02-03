@@ -76,9 +76,14 @@ a:hover{
   z-index:1;
   top:0;
 }
+.navigation h1{
+  font-size:45px;
+  display:inline;
+  margin:0 15px;
+}
 .navigation span{
   position:relative;
-  color:var(--blue);
+  color:var(--black);
   font-weight:bold;
   margin:0 25px;
 }
@@ -96,7 +101,7 @@ a:hover{
 }
 .navigation a{
   text-decoration:none;
-  color:var(--blue);
+  color:var(--black);
   cursor:pointer;
   padding:15px;
 }
@@ -162,7 +167,7 @@ a:hover{
   font-weight:bold;
 }
 .splash img{
-  height:280px;
+  height:200px;
 }
 .splash h1{
   color:var(--white);

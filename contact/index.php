@@ -26,7 +26,7 @@
     </div>
     <div class="section contacts">
 
-      <div class="contact-info">
+      <!--<div class="contact-info">
         <div class="icon">
           <img src="../res/blue-twitter.svg"/>
         </div>
@@ -54,7 +54,7 @@
           <h2>LinkedIn</h2>
           <a href="https://www.linkedin.com/in/farhanashah/">Farhana N. Shah</a>
         </div>
-      </div>
+      </div>-->
 
       <div class="contact-info">
         <div class="icon">
@@ -62,7 +62,7 @@
         </div>
         <div class="link">
           <h2>Email</h2>
-          <a href="mailto:farhana@shah.org">farhana@shah.org</a>
+          <a href="mailto:edhausconsulting@gmail.com">edhausconsulting@gmail.com</a>
         </div>
       </div>
 
