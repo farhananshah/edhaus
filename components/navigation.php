@@ -1,11 +1,11 @@
 <?php $PREFIX=isset($PREFIX)?$PREFIX:"../" ?>
 <div class="navigation">
-  <h1>Edhaus Consulting, LLC</h1>
+  <h1>Edhaus Consulting</h1>
   <span>
     <a href="<?php echo($PREFIX);?>">About</a>
   </span>
   <span>
-    <span class="dropdown">Services</span>
+    <span class="dropdown">Products & Services</span>
     <div class="options">
       <a href="<?php echo($PREFIX);?>clients">Clients</a>
       <a href="<?php echo($PREFIX);?>services">Products & Services</a>

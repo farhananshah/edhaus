@@ -80,7 +80,7 @@
             career spans over 20 years of teaching in the classroom, leading teams,
             evaluating teachers, and providing staff development in the U.S. and
             abroad. She possesses a proven history of successfully implementing key
-            development and growth strategies.
+            development and growth in both education and non-education sectors.
           </p>
         </div>
       </div>

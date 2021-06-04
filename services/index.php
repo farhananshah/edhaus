@@ -33,7 +33,7 @@
 
       <h2>Online Tutoring Platform (coming soon)</h2>
 
-      <h2>Trainings and Workshops for Educational Organizations</h2>
+      <h2>Trainings and Workshops</h2>
       <ul>
         <li>Management</li>
         <li>Instruction</li>
@@ -41,8 +41,9 @@
         <li>Differentiation</li>
         <li>Special Needs</li>
         <li>English Learners</li>
-        <li>Diversity</li>
       </ul>
+
+      <h2>Diversity and Inclusion (coming soon)</h2>
 
     </div>
 
